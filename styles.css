@@ -2,11 +2,30 @@
   padding: 0;
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Ubuntu";
   background-color: #03254e;
 }
-
+.scrollUpBtn {
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  bottom: 50px;
+  right: 50px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: #000;
+}
+.scrollUpBtn :hover {
+  color: #fff;
+}
+.scrollUpBtn :active {
+  color: #000;
+}
 #navbar .container-fluid {
   height: 50%;
 }
