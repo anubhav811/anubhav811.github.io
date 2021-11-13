@@ -10,9 +10,7 @@ body {
 #navbar .container-fluid {
   height: 50%;
 }
-.titleCard {
-  padding: 3% 9%;
-}
+
 .navbar {
   margin-bottom: 5.5rem;
 }
@@ -29,7 +27,10 @@ body {
 .nav-link:hover {
   color: grey;
 }
-
+#title {
+  margin-top: 2%;
+  padding: 7%;
+}
 .myimg {
   border-radius: 90px;
 }
