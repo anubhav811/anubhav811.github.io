@@ -60,13 +60,13 @@ h1 {
 }
 
 h3 {
-  font-family: "Ubuntu";
+  /* font-family: "Ubuntu"; */
   font-weight: bold;
   font-size: 2rem;
 }
 
 h2 {
-  font-family: "Ubuntu";
+  /* font-family: "Ubuntu"; */
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
