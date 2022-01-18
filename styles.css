@@ -7,7 +7,8 @@ html {
 }
 body {
   font-family: "Ubuntu";
-  background-color: #03254e;
+  background-color: white;
+  color: black;
 }
 .scrollUpBtn {
   position: fixed;
@@ -47,8 +48,11 @@ body {
   color: grey;
 }
 #title {
-  margin-top: 2%;
-  padding: 7%;
+  /* margin-top: 2%; */
+  margin-left: 13%;
+  margin-right: 13%;
+  padding-top: 15%;
+  /* padding: 15%; */
 }
 .myimg {
   border-radius: 90px;
@@ -81,28 +85,68 @@ h2 {
 }
 
 .name {
-  color: white;
   padding: 10%;
-  background-color: #3352b6;
+  /* background-color: #3352b6; */
   /* border-radius: 90px 0px 90px 4px; */
 }
+.section_content {
+  margin-left: 13%;
+  margin-right: 13%;
+  padding: 9%;
+}
 
+.section_title {
+  text-align: center;
+  /* margin-bottom: 7%; */
+}
+/* /* .about_title::after {
+  content: "my introduction";
+  position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: rgb(57, 20, 220);
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
+} */
+/*
+.about_title::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+
+} */
+.section {
+  margin-left: 13%;
+  margin-right: 13%;
+  padding: 10%;
+}
 #about {
-  /* margin-left: 9%;
-  margin-right: 9%; */
-  padding: 7%;
-  background-color: #eff0f6cb;
+  /* margin-left: 13%;
+  margin-right: 13%;
+  padding: 10%; */
+  /* background-color: #eff0f6cb; */
+  border-radius: 90px;
+}
+
+/* #about > div > h2 {
+  /* color: white; 
+} */
+#skills {
+  /* background-color: #3352b6; */
   /* border-radius: 90px; */
 }
-#experiences {
-  padding: 7%;
-  background-color: #3352b6;
-  /* border-radius: 90px; */
-}
-#experiences > div > h2 {
-  color: #eff0f6cb;
-}
-#experiences > div > hr {
+
+/* #skills > div > h2 {
+  color: white;
+} */
+#skills > div > hr {
   color: #eff0f6cb;
 }
 
@@ -209,4 +253,50 @@ h2 {
   100% {
     left: 0;
   }
+}
+
+.section_content .bars {
+  margin-bottom: 15px;
+}
+.section_content .bars .info {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.section_content .bars span {
+  font-weight: 500;
+  font-size: 18px;
+}
+.section_content .bars .line {
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
+.section_content .bars .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #3626a7;
+}
+.section_content .html::before {
+  width: 85%;
+}
+.section_content .css::before {
+  width: 75%;
+}
+.section_content .js::before {
+  width: 70%;
+}
+.section_content .android::before {
+  width: 85%;
+}
+.section_content .firebase::before {
+  width: 75%;
+}
+.section_content .bs::before {
+  width: 80%;
 }
