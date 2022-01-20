@@ -68,14 +68,14 @@ let education = document.getElementById("education");
 let work = document.getElementById("work");
 let educationheader = document.getElementById("educationheader");
 let workheader = document.getElementById("workheader");
-workheader.style.color = "#3352b6";
+educationheader.style.color = "#3352b6";
 
 educationheader.addEventListener("click", () => {
   let condition1 = work.classList.contains("qualification-inactive");
   if (!condition1) {
     education.classList.remove("qualification-inactive");
     work.classList.add("qualification-inactive");
-    workheader.style.color = "#3352b6";
+    workheader.style.color = "#777";
     educationheader.style.color = "#3352b6";
   }
 });
@@ -84,7 +84,7 @@ workheader.addEventListener("click", () => {
   if (!condition2) {
     work.classList.remove("qualification-inactive");
     education.classList.add("qualification-inactive");
-    educationheader.style.color = "#3352b6";
+    educationheader.style.color = "#777";
     workheader.style.color = "#3352b6";
   }
 });

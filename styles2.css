@@ -6,9 +6,18 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: white;
-  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: #252525;
+  color: #bcbac4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
 }
 .scrollUpBtn {
   position: fixed;
@@ -33,7 +42,7 @@ body {
 
 .navbar {
   margin-bottom: 5.5rem;
-  background-color: white;
+  background-color: rgb(5, 3, 3);
 }
 
 .nav-item {
@@ -43,11 +52,12 @@ body {
 
 .nav-link {
   font-size: 1rem;
-  color: rgb(48, 48, 48);
+  color: rgb(168, 168, 168);
 }
 .nav-link:hover {
-  color: grey;
+  color: #646262;
 }
+
 #title {
   /* margin-top: 2%; */
   margin-left: 13%;
@@ -94,6 +104,13 @@ h2 {
   margin-left: 13%;
   margin-right: 13%;
   padding: 9%;
+}
+.notNav {
+  background-color: #3352b6 !important;
+  color: #e1e7ff;
+}
+.notNav:hover {
+  background-color: #e1e7ff !important;
 }
 
 .section_title {
@@ -157,7 +174,7 @@ h2 {
   width: 50%;
 }
 .link:hover {
-  color: #3626a7;
+  color: #3352b6;
 }
 
 .social_links {
@@ -167,7 +184,7 @@ h2 {
 }
 
 .social_links:hover {
-  color: #3626a7;
+  color: #3352b6;
 }
 
 .wave {
@@ -258,60 +275,60 @@ h2 {
   }
 }
 
-.section_content .bars {
+.bars {
   margin-bottom: 20px;
 }
-.section_content .bars .info {
+.bars .info {
   display: flex;
   margin-bottom: 5px;
   align-items: center;
   justify-content: space-between;
 }
-.section_content .bars span {
+.bars span {
   font-weight: 500;
   font-size: 18px;
 }
-.section_content .bars .line {
+.bars .line {
   height: 5px;
   width: 100%;
   background: lightgrey;
   position: relative;
 }
-.section_content .bars .line::before {
+.bars .line::before {
   content: "";
   position: absolute;
   height: 100%;
   left: 0;
   top: 0;
-  background: #3626a7;
+  background: #3352b6;
 }
-.section_content .html::before {
+.html::before {
   width: 85%;
 }
-.section_content .css::before {
+.css::before {
   width: 75%;
 }
-.section_content .js::before {
+.js::before {
   width: 70%;
 }
-.section_content .android::before {
+.android::before {
   width: 85%;
 }
-.section_content .firebase::before {
+.firebase::before {
   width: 75%;
 }
-.section_content .bs::before {
+.bs::before {
   width: 80%;
 }
 footer {
-  background: #111;
-  padding: 25px 23px;
+  background: #3352b6;
+  padding: 35px 20px;
   color: #fff;
-
+  font-weight: 600;
   text-align: center;
 }
 footer i {
-  color: #929292;
+  color: #d3d3d3;
 }
 
 .contact_title {
@@ -325,6 +342,8 @@ footer i {
   padding-left: 10px;
   padding-bottom: 10px;
   font-size: 0.9rem;
+  color: #646262;
+  font-weight: 600;
 }
 
 .section_content > div > div > i {
@@ -357,12 +376,13 @@ form .fname {
 form .field input,
 form .textarea textarea {
   height: 100%;
+  background-color: #e1e7ff;
   width: 100%;
   border: 1px solid lightgrey;
   border-radius: 6px;
   outline: none;
   padding: 0 15px;
-  font-size: 17px;
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
   transition: all 0.3s ease;
 }
@@ -393,18 +413,8 @@ form .button-area {
 
 .qualification_button {
   font-size: 20px;
-  font-weight: bolder;
-  color: #3352b6;
+  /* font-weight: bolder; */
   cursor: pointer;
-}
-
-.qualification_button:hover {
-  color: var(--first-color);
-}
-
-.qualification_icon {
-  font-size: 1.8rem;
-  margin-right: var(--mb-0-25);
 }
 
 .qualification_data {
@@ -420,22 +430,23 @@ form .button-area {
 
 .qualification_subtitle {
   display: inline-block;
-  color: #646262;
-  font-size: 0.9rem;
-  /* margin-bottom: 2%; */
+  color: #777;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 2%;
 }
 
 .qualification_calendar {
   margin-top: 1%;
-  font-size: 1rem;
-  color: black;
+  font-size: 0.9rem;
+  color: #777;
 }
 
 .qualification_circle {
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: #3352b6;
+  background-color: #777;
   border-radius: 50%;
 }
 
@@ -443,7 +454,7 @@ form .button-area {
   display: block;
   width: 1px;
   height: 100%;
-  background-color: #3352b6;
+  background-color: #777;
   transform: translate(6px, -7px);
 }
 

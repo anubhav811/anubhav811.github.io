@@ -19,7 +19,7 @@
     <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
     <title>Anubhav Chachra</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" id="stylesheet" href="styles.css">
+    <link rel="stylesheet" id="stylesheet" href="styles2.css">
 
 
 </head>
@@ -56,7 +56,7 @@
                         </li>
                         <li class="nav-item ms-auto">
                             <a class="btn btn-large nav-link" onclick="changeCSS()"><i id="darkSwitch"
-                                    class="far fa-moon"></i></a>
+                                    class="fal fa-sun"></i></a>
                         </li>
                     </ul>
 
@@ -65,20 +65,19 @@
         </div>
 
         <!-- TITLE -->
-        <div class="row  name wow animate__animated animate__fadeInLeft titleCard " id="title">
-            <div class='col lg-6'>
+        <div class="row  name  titleCard " id="title">
+            <div class='col lg-6 wow animate__animated animate__fadeInLeft'>
                 <h3>Hello World <span class="wave"> 👋</span><br><br></h3>
-                <h1><span style="color:#3626a7">I'm</span> Anubhav</h1><br>
+                <h1><span style="color:#3352b6">I'm</span> Anubhav</h1><br>
 
                 <!-- <h4>I am <span class="txt-type" data-wait="3000"
                         data-words='["an Android Developer", "a FrontEnd Developer"]'></span></h4> -->
                 <br>
-                <button href="#contact" class="btn btn-outline-dark btn-large getIntouch-btn"><i
-                        class="fal fa-chart-network"></i></i> Get in touch</button>
+                <a href="#contact"><button type="button" class="btn btn btn-large notNav"><i
+                            class="fal fa-chart-network" id="notNav"></i> Get in touch</button></a>
             </div>
-            <div class="col-lg-6">
-                <img class="wow animate__animated animate__fadeInLeft "
-                    style="margin: auto;display: block;width:340px ;border-radius: 90%;" id="myImg" src="">
+            <div class="col-lg-6 align-items-center justify-content-center">
+                <img class="wow animate__animated animate__fadeInRight " style="width:350px " src="introPic.png">
             </div>
         </div>
     </section>
@@ -92,17 +91,17 @@
                 <div class="row ">
                     <h2 class="section_title">
                         About Me</h2>
-                    <h5 class="section_title" style="color: #3626a7 ; margin-bottom: 5%;">- my intro -</h5>
+                    <h5 class="section_title" style="color: #646262 ; margin-bottom: 5%;">- my intro -
+                    </h5>
 
-                    <div class="col">
+                    <div class="col d-flex align-items-center justify-content-center">
                         <img class="wow animate__animated animate__slideInLeft "
-                            style="margin: auto;display: block;width:300px ;border-radius: 90%; margin-bottom: 5%;"
-                            id="myImg" src="pic.png">
+                            style="width:300px ; border-radius: 90%; " id="myImg" src="pic.png">
                     </div>
                     <div class='col wow animate__animated animate__slideInRight'>
                         <div class="row">
                             <!-- <hr class=" me-auto" /> -->
-                            <span>
+                            <span style="color: #646262">
                                 I am currently pursuing BTech in Information Technology
                                 from Vellore Institute of Technology
                                 (VIT),
@@ -111,8 +110,8 @@
                                 school
                                 or my
                                 own
-                                neighbourhood . I was never an expert nor I
-                                completely understood what kind of problem I was being called for . But I just
+                                neighbourhood . I was neither an expert nor I
+                                for what I was being called for . But I just
                                 used
                                 to
                                 go
@@ -122,28 +121,13 @@
                                 building things from scratch and I have
                                 been
                                 learning
-                                and
-                                exploring about domains like App Development and FrontEnd Web Development .
+                                and exploring about domains like App Development and FrontEnd Development.
                             </span>
                         </div>
                         <br>
                         <div class="row social_links wow animate__animated animate__fadeInDown">
-                            <a download type="button" class="btn btn-outline-dark btn-large getIntouch-btn"
-                                href="./resume/resume.pdf">
+                            <a download type="button" class="btn btn btn-large notNav" href="./resume/resume.pdf">
                                 <i class="far fa-file"></i>&nbsp; Download Resume </a>
-                            <!-- <div class="col-lg">
-                                <a class="social_links" href="mailto:chachraanubhav@gmail.com" target="_blank"><i
-                                        class="fas fa-envelope fa-2x"></i></a>
-
-                                <a class="social_links" href="https://github.com/anubhav811" target="_blank"><i
-                                        class="fab fa-github fa-2x"></i></a>
-
-
-                                <a class="social_links" href="https://www.linkedin.com/in/anubhav-chachra-80531217a/"
-                                    target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-                                <a class="social_links" href="https://www.instagram.com/anoobhow/" target="_blank"><i
-                                        class="fab fa-instagram fa-2x"></i></a>
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -158,179 +142,199 @@
 
     <section id="skills" class="section">
         <div class="me-auto ">
-            <h2 class="section_title">Skills</h2>
-            <h5 class="section_title" style="color: #3626a7 ; margin-bottom: 5%;">- my tech skills -</h5>
-            <div class="section_content col-lg wow animate__animated animate__slideInUp">
-                <div class="bars">
-                    <div class="info">
-                        <span><i class="fab fa-android "></i> Android (Java | Kotlin)</span>
-                        <span>85%</span>
-                    </div>
-                    <div class="line android"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span><span class="iconify" data-icon="simple-icons:firebase"></span>
-                            Firebase</span>
-                        <span>75%</span>
-                    </div>
-                    <div class="line firebase"></div>
-                </div>
+            <div class="row ">
 
-                <div class="bars">
-                    <div class="info">
-                        <span><i class="fas fa-code"></i> HTML</span>
-                        <span>85%</span>
-                    </div>
-                    <div class="line html"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span><i class="fab fa-css3"></i> CSS</span>
-                        <span>75%</span>
-                    </div>
-                    <div class="line css"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span><i class="fab fa-js-square"></i> JavaScript</span>
-                        <span>70%</span>
-                    </div>
-                    <div class="line js"></div>
-                </div>
-                <div class="bars">
-                    <div class="info">
-                        <span><i class="fab fa-bootstrap"></i> Bootstrap</span>
-                        <span>80%</span>
-                    </div>
-                    <div class="line bs"></div>
-                </div>
+                <h2 class="section_title">Skills</h2>
+                <h5 class="section_title" style="color: #646262 ; margin-bottom: 5%;">- my tech skills
+                    -
+                </h5>
+                <div class="col-lg wow animate__animated animate__fadeInLeft" style="padding: 20px;">
+                    <span style="color: #646262; font-size: 15px; ">
 
-            </div>
-            <div class=''>
+                        In Android Development , I have quite a decent grasp of over both Java and Kotlin
+                        I have learnt different methodologies of MVVM Architecure with Room and Firebase implementation
+                        .<br>
+                        Currently I am making small projects to learn the best practices for implementation of above
+                        mentioned stuff.<br>
+                        I plan to learn Jetpack Compose in the coming time as well.<br>
+                        In FrontEnd Development , I have a decent command over HTML , CSS , JS & Bootstrap .<br>
+                        For Backend , I have learnt about MongoDB and I am currently learning more about NodeJs.<br>
+                        I know programming languages like C, C++, Python & Java.<br>
+                        I am currently learning about Data Structures and Algorithms in Java.
 
+                    </span>
+                </div>
+                <div class="col-lg wow animate__animated animate__fadeInRight" style="padding: 20px;">
+                    <div class=" bars">
+                        <div class="info">
+                            <span><i class="fab fa-android "></i> Android (Java | Kotlin)</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="line android"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span><span class="iconify" data-icon="simple-icons:firebase"></span>
+                                Firebase</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line firebase"></div>
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span><i class="fas fa-code"></i> HTML</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span><i class="fab fa-css3"></i> CSS</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span><i class="fab fa-js-square"></i> JavaScript</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line bs"></div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </section>
     <section class="section" id="qualifications">
         <h2 class="section_title">Qualifications</h2>
-        <h5 class="section_title" style="color: #3626a7 ; margin-bottom: 5%;">- my education and work qualifications -
+        <h5 class="section_title" style="color: #646262 ; margin-bottom: 5%;">- my education and work
+            qualifications -
         </h5>
-        <div class="qualification_tabs ">
-            <div class="qualification_button button-flex" id="educationheader">
-                <i class="fas fa-user-graduate"></i> &nbsp;Education
-            </div>
-
-            <div class="qualification_button button-flex" id="workheader">
-                <i class="fas fa-briefcase"></i> &nbsp;Work
-            </div>
-        </div>
-        <div class="row">
-            <div class="qualification_sections">
-                <!-- Educational Qualification -->
-                <div class="qualification_content qualification_active " data-content id="education">
-                    <!-- BTech IT -->
-                    <div class="qualification_data">
-                        <div>
-                            <h3 class="qualification_title">BTech Information Technology</h3>
-                            <span class="qualification_subtitle">Vellore Institute of Technology , Vellore</span><br>
-                            <span class="qualification_subtitle">CGPA : 9.0 </span>
-                            <div class="qualification_calendar">
-                                <i class="uil uil-calendar-alt"></i>
-                                <i class="fas fa-calendar-week"></i>&nbsp;2020 - 2024
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="qualification_circle"></span>
-                            <span class="qualification_line"></span>
-                        </div>
-                    </div>
-
-                    <!-- School 11-12 -->
-                    <div class="qualification_data">
-                        <div></div>
-
-                        <div>
-                            <span class="qualification_circle"></span>
-                            <span class="qualification_line"></span>
-
-                        </div>
-
-                        <div>
-                            <h3 class="qualification_title">Class 12th</h3>
-                            <span class="qualification_subtitle">Ryan International School, Faridabad</span><br>
-                            <span class="qualification_subtitle">94.4 %</span>
-                            <div class="qualification_calendar">
-                                <i class="fas fa-calendar-week"></i> &nbsp;Passed in 2020
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- School 1-10 -->
-                    <div class="qualification_data">
-                        <div>
-                            <h3 class="qualification_title">Class 10th</h3>
-                            <span class="qualification_subtitle">Ryan International School, Faridabad</span><br>
-                            <span class="qualification_subtitle">92.2 %</span>
-                            <div class="qualification_calendar">
-                                <i class="fas fa-calendar-week"></i>&nbsp;Passed in 2018
-                            </div>
-                        </div>
-                        <div>
-                            <span class="qualification_circle"></span>
-                        </div>
-                    </div>
-
+        <div class="wow animate__animated animate__fadeInUp">
+            <div class="qualification_tabs ">
+                <div class="qualification_button button-flex" id="educationheader">
+                    <i class="fas fa-user-graduate"></i> &nbsp;Education
                 </div>
-                <div class="qualification_content qualification-inactive" data-content id="work">
-                    <!-- SWoC -->
-                    <div class="qualification_data">
-                        <div>
-                            <h3 class="qualification_title"><br><br></h3>
-                            <span class="qualification_subtitle"></span><br>
-                            <span class="qualification_subtitle"></span>
-                            <div class="qualification_calendar">
-                                <!-- <i class="uil uil-calendar-alt"></i>
+
+                <div class="qualification_button button-flex" id="workheader">
+                    <i class="fas fa-briefcase"></i> &nbsp;Work
+                </div>
+            </div>
+            <div class="row">
+                <div class="qualification_sections">
+                    <!-- Educational Qualification -->
+                    <div class="qualification_content qualification_active " data-content id="education">
+                        <!-- BTech IT -->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">BTech Information Technology</h3>
+                                <span class="qualification_subtitle">Vellore Institute of Technology ,
+                                    Vellore</span><br>
+                                <span class="qualification_subtitle">CGPA : 9.0 </span>
+                                <div class="qualification_calendar">
+                                    <i class="fas fa-calendar-week"></i>&nbsp;2020 - 2024
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_circle"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+
+                        <!-- School 11-12 -->
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_circle"></span>
+                                <span class="qualification_line"></span>
+
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">Class 12th</h3>
+                                <span class="qualification_subtitle">Ryan International School, Faridabad</span><br>
+                                <span class="qualification_subtitle">95.6 %</span>
+                                <div class="qualification_calendar">
+                                    <i class="fas fa-calendar-week"></i> &nbsp;Passed in 2020
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- School 1-10 -->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Class 10th</h3>
+                                <span class="qualification_subtitle">Ryan International School, Faridabad</span><br>
+                                <span class="qualification_subtitle">92.2 %</span>
+                                <div class="qualification_calendar">
+                                    <i class="fas fa-calendar-week"></i>&nbsp;Passed in 2018
+                                </div>
+                            </div>
+                            <div>
+                                <span class="qualification_circle"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="qualification_content qualification-inactive" data-content id="work">
+                        <!-- SWoC -->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title"><br><br></h3>
+                                <span class="qualification_subtitle"></span><br>
+                                <span class="qualification_subtitle"></span>
+                                <div class="qualification_calendar">
+                                    <!-- <i class="uil uil-calendar-alt"></i>
                                 2020 - 2024 -->
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_circle" style="visibility: hidden;"></span>
+                                <span class="qualification_line"></span>
+
                             </div>
                         </div>
 
-                        <div>
-                            <span class="qualification_circle" style="visibility: hidden;"></span>
-                            <span class="qualification_line"></span>
+                        <!-- School 11-12 -->
+                        <div class="qualification_data">
+                            <div></div>
 
-                        </div>
-                    </div>
+                            <div>
+                                <span class="qualification_circle"></span>
+                                <!-- <span class="qualification_line"></span> -->
 
-                    <!-- School 11-12 -->
-                    <div class="qualification_data">
-                        <div></div>
+                            </div>
 
-                        <div>
-                            <span class="qualification_circle"></span>
-                            <!-- <span class="qualification_line"></span> -->
-
-                        </div>
-
-                        <div>
-                            <h3 class="qualification_title">Mobile App Development Intern</h3>
-                            <span class="qualification_subtitle">The Sparks Foundation</span>
-                            <div class="qualification_calendar">
-                                <i class="fas fa-calendar-week"></i>&nbsp; Dec 2021 - Jan 2021
+                            <div>
+                                <h3 class="qualification_title">Mobile App Development Intern</h3>
+                                <span class="qualification_subtitle">The Sparks Foundation</span>
+                                <div class="qualification_calendar">
+                                    <i class="fas fa-calendar-week"></i>&nbsp; Dec 2021 - Jan 2021
+                                </div>
                             </div>
                         </div>
+
+
+
                     </div>
-
-
-
-
                 </div>
 
     </section>
     <section id="contact" class="section">
         <h2 class="section_title">Contact Me</h2>
-        <h5 class="section_title" style="color: #3626a7 ; margin-bottom: 5%;">- lets connect -</h5>
+        <h5 class="section_title" style="color: #646262 ; margin-bottom: 5%;">- lets connect -</h5>
         <div class="row">
             <div class="col-lg-6 wow animate__animated animate__slideInLeft">
                 <br><br>
@@ -384,7 +388,7 @@
                         <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                     </div>
                     <div class="button-area">
-                        <button type="submit" class="btn btn-outline-dark btn-large " value="Send">
+                        <button type="submit" class="btn btn btn-large notNav" id="notNav" value="Send">
                             <i class="fas fa-share-all"></i> Send
                         </button>
                     </div>
@@ -395,20 +399,28 @@
         function changeCSS() {
             event.preventDefault()
             var stylesheet = document.getElementById("stylesheet").getAttribute("href")
+            var buttons = document.getElementById("notNav")
 
             if (stylesheet == 'styles.css') {
                 document.getElementById("stylesheet").setAttribute("href", "styles2.css")
-                document.getElementById("darkSwitch").setAttribute('class', 'fas fa-moon');
+                console.log(document.getElementById("stylesheet").getAttribute("href"))
+                document.getElementById("darkSwitch").setAttribute('class', 'fas fa-sun');
+                // buttons.setAttribute("class", "btn btn-dark btn-large notNav")
+
+
             }
             if (stylesheet == 'styles2.css') {
                 document.getElementById("stylesheet").setAttribute("href", "styles.css");
+                console.log(document.getElementById("stylesheet").getAttribute("href"))
                 document.getElementById("darkSwitch").setAttribute('class', 'far fa-moon');
+                // buttons.setAttribute("class", "btn btn btn-large notNav")
 
             }
         } 
     </script>
+
     <footer>
-        <span>Created By <span id="name">Anubhav Chachra</span> &nbsp;|&nbsp;&nbsp;
+        <span>Made with ❤️<span id="name"> by Anubhav Chachra</span> &nbsp;|&nbsp;&nbsp;
             <a href="http://www.instagram.com/anoobhow/" target="_blank"><i
                     class="fab fa-instagram "></i></a>&nbsp;&nbsp;
             <a href="https://www.linkedin.com/in/anubhav-chachra-80531217a/" target="_blank">
