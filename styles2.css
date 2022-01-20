@@ -48,7 +48,6 @@ body {
 .nav-link:hover {
   color: grey;
 }
-
 #title {
   /* margin-top: 2%; */
   margin-left: 13%;
@@ -305,14 +304,14 @@ h2 {
   width: 80%;
 }
 footer {
-  background: #3626a7;
+  background: #111;
   padding: 25px 23px;
   color: #fff;
 
   text-align: center;
 }
 footer i {
-  color: #d3d3d3;
+  color: #929292;
 }
 
 .contact_title {
@@ -358,13 +357,12 @@ form .fname {
 form .field input,
 form .textarea textarea {
   height: 100%;
-  background-color: #e1e7ff;
   width: 100%;
   border: 1px solid lightgrey;
   border-radius: 6px;
   outline: none;
   padding: 0 15px;
-  font-size: 14px;
+  font-size: 17px;
   font-family: "Poppins", sans-serif;
   transition: all 0.3s ease;
 }
