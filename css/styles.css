@@ -56,9 +56,6 @@ h6 {
 .nav-link:hover {
   color: grey;
 }
-.nav-link:active {
-  color: #3352b6;
-}
 
 #title {
   /* margin-top: 2%; */
@@ -405,19 +402,17 @@ form .button-area {
 }
 
 .qualification_subtitle {
-  display: inline-block;
   color: #777;
   font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 2%;
+  /* margin-bottom: 2%; */
 }
 
 .qualification_calendar {
-  margin-top: 1%;
+  margin-top: 3%;
   font-size: 0.9rem;
   color: #777;
 }
-
 .qualification_circle {
   display: inline-block;
   width: 13px;

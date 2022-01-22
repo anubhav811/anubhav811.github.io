@@ -52,10 +52,10 @@ h6 {
 
 .nav-link {
   font-size: 1rem;
-  color: rgb(168, 168, 168);
+  color: rgba(255, 255, 255, 0.774);
 }
 .nav-link:hover {
-  color: #646262;
+  color: grey;
 }
 
 #title {
@@ -78,6 +78,7 @@ h3 {
   /* font-family: "Ubuntu"; */
   font-weight: bold;
   font-size: 2rem;
+  display: flex;
 }
 
 h2 {
@@ -428,15 +429,14 @@ form .button-area {
 }
 
 .qualification_subtitle {
-  display: inline-block;
   color: #777;
   font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 2%;
+  /* margin-bottom: 2%; */
 }
 
 .qualification_calendar {
-  margin-top: 1%;
+  margin-top: 3%;
   font-size: 0.9rem;
   color: #777;
 }
