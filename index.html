@@ -70,7 +70,9 @@
 
                         <li class="nav-item mr-auto">
                             <a class="btn btn-large nav-link" onclick="changeCSS()"><i id="darkSwitch"
-                                    class="fal fa-sun"></i></a>
+                                    class="fal fa-lightbulb-on"></i></a>
+
+
                         </li>
                     </ul>
 
@@ -414,7 +416,7 @@
                 if (stylesheet == 'css/styles.css') {
                     document.getElementById("stylesheet").setAttribute("href", "css/styles2.css")
                     console.log(document.getElementById("stylesheet").getAttribute("href"))
-                    document.getElementById("darkSwitch").setAttribute('class', 'fas fa-sun');
+                    document.getElementById("darkSwitch").setAttribute('class', 'fal fa-lightbulb-on');
                     document.getElementById("navToggle").setAttribute("style", "color:white; font-size:28px;")
                     document.getElementById("logo").setAttribute("src", "imgs/logo.png");
 
