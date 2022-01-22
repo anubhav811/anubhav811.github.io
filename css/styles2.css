@@ -410,13 +410,11 @@ form .button-area {
   justify-content: space-evenly;
   margin-bottom: 20px;
 }
-
 .qualification_button {
   font-size: 20px;
   /* font-weight: bolder; */
   cursor: pointer;
 }
-
 .qualification_data {
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
@@ -424,14 +422,14 @@ form .button-area {
 }
 
 .qualification_title {
-  font-size: 1.2rem;
-  font-weight: bolder;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .qualification_subtitle {
   color: #777;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
   /* margin-bottom: 2%; */
 }
 
@@ -440,12 +438,11 @@ form .button-area {
   font-size: 0.9rem;
   color: #777;
 }
-
 .qualification_circle {
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: #777;
+  background-color: #3352b6;
   border-radius: 50%;
 }
 
@@ -453,7 +450,7 @@ form .button-area {
   display: block;
   width: 1px;
   height: 100%;
-  background-color: #777;
+  background-color: #3352b6;
   transform: translate(6px, -7px);
 }
 
