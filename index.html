@@ -22,7 +22,7 @@
     <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
     <title>Anubhav Chachra</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" id="stylesheet" href="styles2.css">
+    <link rel="stylesheet" id="stylesheet" href="css/styles2.css">
 
 
 </head>
@@ -43,7 +43,7 @@
                     <ul class="navbar-nav wow animate__animated animate__fadeInDown">
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img id="logo" src="logo.png" width="35px"></a>
+                            <a class="nav-link" href="#"><img id="logo" src="imgs/logo.png" width="35px"></a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ms-auto wow animate__animated animate__fadeInDown">
@@ -89,7 +89,7 @@
                             class="fal fa-chart-network" id="notNav"></i> Get in touch</button></a>
             </div>
             <div class="col-lg-6 align-items-center justify-content-center">
-                <img class="wow animate__animated animate__fadeInRight " style="width:350px " src="introPic.png">
+                <img class="wow animate__animated animate__fadeInRight " style="width:350px " src="imgs/introPic.png">
             </div>
         </div>
     </section>
@@ -108,7 +108,7 @@
 
                     <div class="col d-flex align-items-center justify-content-center">
                         <img class="wow animate__animated animate__slideInLeft "
-                            style="width:300px ; border-radius: 90%; " id="myImg" src="pic.png">
+                            style="width:300px ; border-radius: 90%; " id="myImg" src="imgs/pic.png">
                     </div>
                     <div class='col wow animate__animated animate__slideInRight'>
                         <div class="row">
@@ -138,7 +138,7 @@
                         </div>
                         <br>
                         <div class="row social_links wow animate__animated animate__fadeInDown">
-                            <a download type="button" class="btn btn btn-large notNav" href="./resume/resume.pdf">
+                            <a download type="button" class="btn btn btn-large notNav" href="resume/resume.pdf">
                                 <i class="far fa-file"></i>&nbsp; Download Resume </a>
                         </div>
                     </div>
@@ -410,20 +410,20 @@
             var stylesheet = document.getElementById("stylesheet").getAttribute("href")
             var buttons = document.getElementById("notNav")
 
-            if (stylesheet == 'styles.css') {
-                document.getElementById("stylesheet").setAttribute("href", "styles2.css")
+            if (stylesheet == 'css/styles.css') {
+                document.getElementById("stylesheet").setAttribute("href", "css/styles2.css")
                 console.log(document.getElementById("stylesheet").getAttribute("href"))
                 document.getElementById("darkSwitch").setAttribute('class', 'fas fa-sun');
-                document.getElementById("logo").setAttribute("src", "logo.png");
+                document.getElementById("logo").setAttribute("src", "imgs/logo.png");
                 // buttons.setAttribute("class", "btn btn-dark btn-large notNav")
 
 
             }
-            if (stylesheet == 'styles2.css') {
-                document.getElementById("stylesheet").setAttribute("href", "styles.css");
-                console.log(document.getElementById("stylesheet").getAttribute("href"))
+            if (stylesheet == 'css/styles2.css') {
+                document.getElementById("stylesheet").setAttribute("href", "css/styles.css");
+                console.log(document.getElementById("stylesheet").getAttribute("href"));
                 document.getElementById("darkSwitch").setAttribute('class', 'far fa-moon');
-                document.getElementById("logo").setAttribute("src", "logo1.png");
+                document.getElementById("logo").setAttribute("src", "imgs/logo1.png");
                 // buttons.setAttribute("class", "btn btn btn-large notNav")
 
             }
@@ -455,7 +455,7 @@
     <script>
         new WOW().init();
     </script>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
