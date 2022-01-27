@@ -346,10 +346,6 @@ footer i {
   font-weight: 400;
 }
 
-.section_content > div > div > i {
-  color: #fc6d6d;
-}
-
 .field {
   display: flex;
   height: 45px;
