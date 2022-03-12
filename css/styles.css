@@ -251,7 +251,7 @@ h2 {
 }
 .bars .info {
   display: flex;
-  margin-bottom: 5px;
+  margin-bottom: 40px;
   align-items: center;
   justify-content: space-between;
 }
