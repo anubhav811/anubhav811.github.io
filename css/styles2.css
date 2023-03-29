@@ -47,6 +47,8 @@ h6 {
 
 .nav-item {
   margin: 0px 10px;
+  align-items: flex-start;
+  float: inline-start;
   padding-right: 15px;
 }
 
@@ -109,6 +111,8 @@ h2 {
 .notNav {
   background-color: #3352b6 !important;
   color: #e1e7ff;
+  max-width: fit-content;
+  flex-direction: column
 }
 .notNav:hover {
   background-color: #e1e7ff !important;
